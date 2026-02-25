@@ -67,8 +67,23 @@ h2 {
   flex-wrap: wrap;
 }
 
+.skills-grid li {
+  border-radius: 5px;
+  margin-left: 1rem;
+}
+
+.skills-grid ul {
+  background-color: #e5e7eb;
+}
+
+/* project page */
 .project {
   margin-bottom: 2rem;
+}
+
+.project a {
+  text-decoration: none;
+  color: #1f2937;
 }
 
 .about-container {
@@ -90,6 +105,7 @@ footer {
   color: white;
 }
 
+/* Audio */
 #audio-toggle {
   position: fixed;
   bottom: 20px;
@@ -100,4 +116,24 @@ footer {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+}
+
+/* Side Bar */
+.side-bar {
+  background-color: #e5e7eb;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-left: 2rem;
+}
+
+.img-wrapper {
+  display: flex;
+  align-items: top-center;
+  padding: 1rem;
+}
+
+.img-wrapper p {
+  padding: 0 1rem;
+  background-color: #e5e7eb;
+  border-radius: 10px;
 }
